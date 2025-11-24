@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+        <!--Linking Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Linking Swiper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <!--Header / Navbar-->
+    <header>
+        <nav class="navbar setion-content" id="home">
+            <a href="#menu" class="nav-logo">
+                <img src="Berry.jpg" width="30px" height="50px">
+                <h2 class="logo-text">Coffee </h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#menu" class="nav-link">Home</a>
+                </li>
+            </ul>
+           
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#about" class="nav-link">About</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#menu" class="nav-link">Menu</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#testimonials" class="nav-link">Testimonials</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#gallery" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="menu-button" onclick=showSidebar()><button id="menu-open-button" class="fas fa-bars"></button>
+            </ul>
+            
+           <ul class="sidebar">
+            <li class="close-button" onclick=hideSidebar()><button id="menu-close-button" class="fas fa-times"></button>
+            <li><a href="index.html#menu">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+              
+        </nav>
+    </header>
+
+            <!--Menu section-->
+<section class="menu-section" id="menu" style="margin-top: 150px;">
+  <h2 class="menu-title">☕Hot Served Coffee</h2>
+  <div class="menu-grid">
+
+    <div class="menu-card">
+      <img src="Berry.jpg" alt="Berry">
+      <h4>Cold Brew <span class="badge chill">🧊 Chill</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="black coffee.jpg" alt="black coffee">
+      <h4>Irish Coffee <span class="badge boozy">🥃 Boozy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Capuccino cofee.webp" alt="Cappuccino coffee">
+      <h4>Cappuccino <span class="badge foamy">☁️ Frothy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffe Frothy Russian.jpg" alt="coffee Frothy Russian">
+      <h4>Turkish Frothy Coffee <span class="badge exotic">🌍 Exotic</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffe1.jpg" alt="Coffe1">  
+      <h4>Café au Lait <span class="badge smooth">🥐 French Style</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffe2.jpg" alt="Coffe2">
+        <h4>Iced Latte <span class="badge cool">❄️ Cool</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee3.jpg" alt="Coffee3">
+      <h4>Caramel Macchiato <span class="badge sweet">🍯 Sweet</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee4.jpg" alt="Coffee4">
+      <h4>Flat White <span class="badge smooth">🫧 Smooth</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffe5.jpg" alt="Coffe5">
+      <h4>French Press <span class="badge press">🫖 Pressed</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee6.jpg" alt="Coffee6">
+      <h4>Caramel Macchiato <span class="badge sweet">🍯 Sweet</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee7.jpg" alt="Coffee7">
+      <h4>Irish Coffee <span class="badge boozy">🥃 Boozy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee8.jpg" alt="Coffee8">  
+       <h4>Affogato <span class="badge dessert">🍨 Dessert Shot</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee9.jpg" alt="Coffee9">
+      <h4>Macchiato <span class="badge intense">💥 Bold</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee10.jpg" alt="Coffee10">  
+        <h4>Mocha <span class="badge choco">🍫 Choco</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee11.jpg" alt="Coffee11">
+      <h4>Espresso <span class="badge bold">⚡ Strong</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Viena coffee.webp" alt="Viena coffee">
+      <h4>Cappuccino <span class="badge foamy">☁️ Frothy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Coffee Cup.jpg" alt="coffee Cup">
+      <h4>Americano <span class="badge classic">🇺🇸 Classic</span></h4>
+    </div>
+
+      <div class="menu-card">
+      <img src="coffee12.jpg" alt="coffee12">
+      <h4>Latte <span class="badge classic">⚡ Strong</span></h4>
+    </div>
+
+  </div>
+</section>
+           <!--Contact Section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p> 0100 Nairobi Kenya</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>allamanojoseph00@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+254) 769-610343</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Open 24hrs Monday-Sunday</p>
+                    </li>
+                     <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>https://github.com/Allamano-design</p>
+                    </li>
+                </ul>
+
+                <form
+                    action="https://formspree.io/f/xrblzqpd"
+                    method="POST"
+                    >
+                    <label>
+                        Your name:
+                        <input type="text" name="Your name">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="Your email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="Your message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Submit</button>
+                </form>
+                
+                
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">Copy right 2025</p>
+
+                <div class="social-link-list">
+                    <a href="https://facebook.com/Manor.Manor" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                         <a href="https://instagram.com/m_anor_0" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                         <a href="https://x.com/bitsmanor" class="social-link"><i class="fa-brands
+                        fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">*</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    
+    <!--Linking Custom Script-->
+    <script src="script.js"></script> 
+</body>
+</html>
