@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whooper</title>
+        <!--Linking Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Linking Swiper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--Header / Navbar-->
+    <header>
+        <nav class="navbar setion-content" id="home">
+            <a href="#" class="nav-logo">
+                <img src="burger0.png" width="30px" height="50px">
+                <h2 class="logo-text">Burgers </h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#menu" class="nav-link">Home</a>
+                </li>
+            </ul>
+           
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#about" class="nav-link">About</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#menu" class="nav-link">Menu</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#testimonials" class="nav-link">Testimonials</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#gallery" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="menu-button" onclick=showSidebar()><button id="menu-open-button" class="fas fa-bars"></button>
+            </ul>
+            
+           <ul class="sidebar">
+            <li class="close-button" onclick=hideSidebar()><button id="menu-close-button" class="fas fa-times"></button>
+            <li><a href="index.html#menu">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+              
+        </nav>
+    </header>
+
+            <!--Menu section-->
+<section class="menu-section" id="menu" style="margin-top: 150px;">
+  <h2 class="menu-title">🍔Our Main Burgers</h2>
+  <div class="menu-grid">
+
+    <div class="menu-card">
+      <img src="burger0.png" alt="burger0">
+      <h4>BBQ Bacon Burger <span class="badge hot">🔥 Spicy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Burger1.jpg" alt="burger1">
+      <h4>Double Cheeseburger <span class="badge cheesy">🧀 Cheesy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger2.jpg" alt="burger2">
+      <h4>Avocado Chicken Burger <span class="badge fresh">🥑 Fresh</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger3.jpg" alt="burger3">
+      <h4>Hawaiian Teriyaki Burger <span class="badge exotic">🍍 Exotic</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger4.jpg" alt="burger4">
+      <h4>Spicy Chicken Burger <span class="badge hot">🔥 Spicy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger5.jpg" alt="burger5">
+      <h4>Mushroom Swiss Burger <span class="badge classic">🍄 Classic</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger6.jpg" alt="burger6">
+      <h4>Black Bean Burger <span class="badge protein">💪 Protein-Packed</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger7.jpg" alt="burger7">
+      <h4>Veggie Delight Burger <span class="badge veggie">🌱 Veggie</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger8.jpg" alt="burger8">
+      <h4>Blue Cheese Burger <span class="badge bold">🔵 Bold Flavor</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger9.jpg" alt="burger9">
+      <h4>Tex-Mex Fire Burger <span class="badge hot">🌶️ Extra Hot</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger10.jpg" alt="burger10">
+      <h4>Breakfast Burger <span class="badge loaded">💥 Loaded</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger11.jpg" alt="burger11">
+      <h4>Slider Party Pack <span class="badge mini">🧊 Mini</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger12.jpg" alt="burger12">
+      <h4>Mac & Cheese Burger <span class="badge cheesy">🧀 Cheesy</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger13.jpg" alt="burger13">
+      <h4>Tokyo Teriyaki Burger <span class="badge exotic">🍱 Asian Twist</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger14.jpg" alt="burger14">
+      <h4>Turkish Burger <span class="badge global">🌍 Global</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger15.jpg" alt="burger15">
+      <h4>Double Beef Stack <span class="badge meaty">🥓 Meaty</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="burger16.jpg" alt="burger16">
+      <h4>Chef’s Pick <span class="badge special">⭐ Special</span></h4>
+    </div>
+
+      <div class="menu-card">
+      <img src="burger17.jpg" alt="burger17">
+      <h4>Double Pork Cheese <span class="badge meaty">🥓 Meaty</span></h4>
+    </div>
+
+
+
+  </div>
+</section>
+           <!--Contact Section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p> 0100 Nairobi Kenya</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>allamanojoseph00@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+254) 769-610343</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Open 24hrs Monday-Sunday</p>
+                    </li>
+                     <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>https://github.com/Allamano-design</p>
+                    </li>
+                </ul>
+
+                <form
+                    action="https://formspree.io/f/xrblzqpd"
+                    method="POST"
+                    >
+                    <label>
+                        Your name:
+                        <input type="text" name="Your name">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="Your email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="Your message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Submit</button>
+                </form>
+                
+                
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">Copy right 2025</p>
+
+                <div class="social-link-list">
+                    <a href="https://facebook.com/Manor.Manor" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                         <a href="https://instagram.com/m_anor_0" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                         <a href="https://x.com/bitsmanor" class="social-link"><i class="fa-brands
+                        fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">*</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    
+    <!--Linking Custom Script-->
+    <script src="script.js"></script> 
+</body>
+</html>
