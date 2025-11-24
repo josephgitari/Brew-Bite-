@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Coffee</title>
+    <!--Linking Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Linking Swiper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header / Navbar-->
+    <header>
+        <nav class="navbar setion-content">
+            <a href="#menu" class="nav-logo">
+                <img src="logo image.jpg" width="30px" height="70px">
+                <h2 class="logo-text">Brew & Bite </h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#home" class="nav-link">Home</a>
+                </li>
+            </ul>
+           
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#about" class="nav-link">About</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#menu" class="nav-link">Menu</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="menu-button" onclick=showSidebar()><button id="menu-open-button" class="fas fa-bars"></button>
+            </ul>
+            
+           <ul class="sidebar">
+            <li class="close-button" onclick=hideSidebar()><button id="menu-close-button" class="fas fa-times"></button>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+              
+        </nav>
+    </header>
+    
+
+    <main>
+        <!--Hero-section-->
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Bite Big</h2>
+                    <h3 class="subtitle"> Sip Bold Crave More!</h3>
+                    <p class="description">Welcome to Brew and Bite, your ultimate flavor destination. Whether you're craving sizzling shawarmas, juicy burgers, stone-baked pizzas, or refreshing mojitos, we’ve brewed the perfect experience just for you. </p>
+
+                    <div class="buttons">
+                        <a href="https://wa.me/254769610343?text=Hello%20Allamano%2C%20I%20visited%20your%20website!" class="button order-now">Order Now</a>
+                        <a href="https://wa.me/254769610343?text=Hello%20Allamano%2C%20I%20visited%20your%20website!" class="button contact-us">Contact us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="Hero image.png" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class=" about-image-wrapper">
+                    <img src="About.jpg" alt="About" class="about-image">   
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Brew & Bite House in Nairobi, Kenya we pride ouselves on being a go-to desination for Sizzle lovers and conversation seekers alike. We're dedicated to providing an exceptional Crave vibe experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time and comfort. </p>
+                   <div class="social-link-list">
+                    <a href="https://facebook.com/Manor.Manor" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                         <a href="https://instagram.com/m_anor_0" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                         <a href="https://x.com/bitsmanor" class="social-link"><i class="fa-brands
+                        fa-x-twitter"></i></a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!--cube Image slider-->
+<div class="slider-section">
+    <div class="slider-details">
+        <div class="slider">
+  <div class="cube">
+    <img src="Shawarma3.jpg" class="slide front">
+    <img src="Hotdog7.jpg" class="slide back">
+    <img src="Shake4.jpg" class="slide right">
+    <img src="Mojiti front.jpg" class="slide left">
+  </div>
+</div>
+    </div>
+</div>
+
+
+        <!--Menu section-->
+<section class="menu-section" id="menu">
+  <h2 class="menu-title">Our Menu</h2>
+  <div class="menu-grid">
+
+    <div class="menu-card">
+        <a href="Burgers.html">
+      <img src="burger4.jpg" alt="burger">
+      </a>
+      <h4>Whooper</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Pizza.html">
+      <img src="Small pizza.jpg" alt="Small Pizza">
+      </a>
+      <h4>Pizza</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Desserts.html">
+      <img src="Dessert13.jpg" alt="Dessert">
+      </a>
+      <h4>Desserts</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Yakitori.html">
+      <img src="Yakitori.jpg" alt="yakitori">
+      </a>
+      <h4>Yakitori</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Hotdog.html">
+      <img src="Hotdog5.jpg" alt="Hotdogs">
+      </a>
+      <h4>Hotdogs</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Mojito.html">
+      <img src="Mocktail5.jpg" alt="Mocktail5">
+      </a>
+      <h4>Mojito</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Grill.html">
+      <img src="Hamburger.jpg" alt="Hamburger">
+      </a>
+      <h4>Special Grills</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Fries.html">
+      <img src="Fries cheese.jpg" alt="Fries Cheese">
+      </a>
+      <h4>French Fries</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Chicken.html">
+      <img src="Drumsticks2.jpg" alt="Drumsticks">
+      </a>
+      <h4>Chicken</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Shakes.html">
+      <img src="Shake5.jpg" alt="Shake5">
+      </a>
+      <h4>Shakes</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Shawarma.html">
+      <img src="Shawarma2.jpg" alt="Shawarma2">
+      </a>
+      <h4>Shawarma</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Sandwich.html">
+      <img src="Sandwich2.jpg" alt="Sandwich1">
+      </a>
+      <h4>Sandwich</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Combos.html">
+      <img src="special combo2.jpg" alt="special combo2">
+      </a>
+      <h4>Special Combos</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Drinks.html">
+      <img src="drink1.jpg" alt="drink1">
+      </a>
+      <h4>Drinks</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Coffee.html">
+      <img src="Coffee2.jpg" alt="coffee Frothy">
+      </a>
+      <h4>Coffee</h4>
+    </div>
+
+    <div class="menu-card">
+        <a href="Dishes.html">
+      <img src="dish5.jpg" alt="dish5">
+      </a>
+      <h4>Swahili Dishes</h4>
+    </div>
+
+
+
+  </div>
+</section>
+
+         <!--Testimonials section-->
+         <section class="testimonials-section" id="testimonials">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Testimonials</h2>
+                </div>
+                <div class="testimonials-container" data-aos="fade-up">
+                    <div class="testimonial-controls">
+                        <button class="testimonial-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    </div>
+                    <div class="testimonials-slider">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Excellent quality! Fresh beans and quick delivery. Highly recommend 
+                                    it to all football fans and players"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="user 1.jpg" alt="user 1">
+                                    <div class="author-info">
+                                        <h4>Bruno Fernandes</h4>
+                                        <p>Captain Football Clubs</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Fantastic mocha flavour. Fresh aromatic that
+                                    i and my family enjoys it every day with their quick bites!"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="user 2.jpg" alt="user 2">
+                                    <div class="author-info">
+                                        <h4>Bahati Kenya</h4>
+                                        <p>Ambassador and Artist Manager, Kenya</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Best decaf I've tried in Kenya! Smooth and tasteful. Always the best"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="user 3.jpg" alt="user 3">
+                                    <div class="author-info">
+                                        <h4>Peter Ndegwa</h4>
+                                        <p>Global C.E.O Safaricom</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="testimonial-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="testimonial-indicators" data-aos="fade-up">
+                    <button class="indicator active" data-index="0"></button>
+                    <button class="indicator" data-index="1"></button>
+                    <button class="indicator" data-index="2"></button>
+                </div>
+            </section>
+
+<!-- Gallery Section -->
+<section class="gallery-section" id="gallery">
+  <h2 class="section-title">Gallery</h2>
+  
+  <!-- Main Card Container -->
+  <div class="gallery-card">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="dish8.jpg" alt="dish8" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="Burger1.jpg" alt="Burger1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Hotdog1.jpg" alt="Hotdog1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Milkshake1.jpg" alt="Milkshake1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Mocktail6.jpg" alt="Mocktail8" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Platter.jpg" alt="Platter" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Sandwich1.jpg" alt="Sandwich1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Shawarma 1.jpg" alt="Shawarma1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Shawarma2.jpg" alt="Shawarma2" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Small pizza.jpg" alt="Small pizza" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Yakitori.jpg" alt="Yakitori" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Fries cheese.jpg" alt="Fries cheese" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Drumsticks 1.jpg" alt="Drumsticks1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Dessert1.jpg" alt="Dessert1" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Coffe Frothy Russian.jpg" alt="Coffee Frothy" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Chicken fingers.jpg" alt="Chicken fingers" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Chicken Kebab.jpg" alt="Chicken Kebab" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="burger2.jpg" alt="burger2" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="drink7.jpg" alt="drink7" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Dessert4.jpg" alt="Dessert4" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Chips2.jpg" alt="Chips2" class="gallery-image" />
+      </div>
+            <div class="gallery-item">
+        <img src="Coffee2.jpg" alt="Coffee2" class="gallery-image" />
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+        <!--Contact Section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p> 0100 Nairobi Kenya</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>allamanojoseph00@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+254) 769-610343</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Open 24hrs Monday-Sunday</p>
+                    </li>
+                     <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>https://github.com/Allamano-design</p>
+                    </li>
+                </ul>
+
+                <form
+                    action="https://formspree.io/f/xrblzqpd"
+                    method="POST"
+                    >
+                    <label>
+                        Your name:
+                        <input type="text" name="Your name">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="Your email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="Your message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Submit</button>
+                </form>
+                
+                
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">Copy right 2025</p>
+
+                <div class="social-link-list">
+                    <a href="https://facebook.com/Manor.Manor" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                         <a href="https://instagram.com/m_anor_0" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                         <a href="https://x.com/bitsmanor" class="social-link"><i class="fa-brands
+                        fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">*</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    
+    <!--Linking Custom Script-->
+     <script src="script.js"></script>
+</body>
+</html>
+
