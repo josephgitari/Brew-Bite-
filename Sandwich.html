@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich</title>
+        <!--Linking Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Linking Swiper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--Header / Navbar-->
+    <header>
+        <nav class="navbar setion-content" id="home">
+            <a href="#menu" class="nav-logo">
+                <img src="Sandwich1.jpg" width="30px" height="50px">
+                <h2 class="logo-text">Sandwich </h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#menu" class="nav-link">Home</a>
+                </li>
+            </ul>
+           
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#about" class="nav-link">About</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#menu" class="nav-link">Menu</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#testimonials" class="nav-link">Testimonials</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="index.html#gallery" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <li class="hideOnMobile"><a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="menu-button" onclick=showSidebar()><button id="menu-open-button" class="fas fa-bars"></button>
+            </ul>
+            
+           <ul class="sidebar">
+            <li class="close-button" onclick=hideSidebar()><button id="menu-close-button" class="fas fa-times"></button>
+            <li><a href="index.html#menu">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+              
+        </nav>
+    </header>
+
+            <!--Menu section-->
+<section class="menu-section" id="menu" style="margin-top: 150px;">
+  <h2 class="menu-title">🥪 Our Main Sandwiches</h2>
+  <div class="menu-grid">
+
+    <div class="menu-card">
+      <img src="Sandwich1.jpg" alt="Sandwich1">
+       <h4>Veggie Delight Sandwich <span class="badge fresh">🥬 Fresh & Light</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich2.jpg" alt="Sandwich2">
+      <h4>Grilled Chicken Sandwich <span class="badge grilled">🔥 Grilled</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwish3.jpg" alt="Sandwish3">
+      <h4>Clubhouse Sandwich <span class="badge stacked">🏢 Triple Stack</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich4.jpg" alt="Sandwich4">
+       <h4>BLT Sandwich <span class="badge classic">🥓 Classic</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich5.jpg" alt="Sandwich5">  
+      <h4>Cheese Melt Sandwich <span class="badge cheesy">🧀 Extra Cheese</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich6.jpg" alt="Sandwich6">  
+      <h4>Smoky BBQ Pulled Pork <span class="badge smoky">🍖 Smoky BBQ</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich7.jpg" alt="Sandwich7">  
+      <h4>Cheesy Tuna Melt <span class="badge melty">🧀 Melty</span></h4>
+    </div>
+
+    <div class="menu-card">
+      <img src="Sandwich8.jpg" alt="Sandwich8">  
+      <h4>Avocado Sunrise Sandwich <span class="badge creamy">🥑 Creamy Goodness</span></h4>
+    </div>
+
+
+  </div>
+</section>
+           <!--Contact Section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p> 0100 Nairobi Kenya</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>allamanojoseph00@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+254) 769-610343</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Open 24hrs Monday-Sunday</p>
+                    </li>
+                     <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>https://github.com/Allamano-design</p>
+                    </li>
+                </ul>
+
+                <form
+                    action="https://formspree.io/f/xrblzqpd"
+                    method="POST"
+                    >
+                    <label>
+                        Your name:
+                        <input type="text" name="Your name">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="Your email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="Your message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Submit</button>
+                </form>
+                
+                
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">Copy right 2025</p>
+
+                <div class="social-link-list">
+                    <a href="https://facebook.com/Manor.Manor" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                         <a href="https://instagram.com/m_anor_0" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                         <a href="https://x.com/bitsmanor" class="social-link"><i class="fa-brands
+                        fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">*</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    
+    <!--Linking Custom Script-->
+    <script src="script.js"></script> 
+</body>
+</html>
